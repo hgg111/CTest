@@ -34,6 +34,18 @@
 		<Unit filename="t1.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="t2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="t3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="t4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="t5.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />
