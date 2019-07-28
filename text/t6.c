@@ -14,7 +14,7 @@
 c=-40.00
 */
 #include<stdio.h>
-int main()
+int main6()
 {
     float f = 0;
     float c = 0;

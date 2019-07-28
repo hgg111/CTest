@@ -33,7 +33,7 @@ int number(int n,int f[])
     }
     return f[n];
 }
-int main()
+int main5()
 {
     int n[55] = {0};
     int f[55] = {0};

@@ -25,7 +25,7 @@ Hello World!
 **************************
 */
 #include<stdio.h>
-int main()
+int main2()
 {
     int i = 0;
     for(i = 0;i < 26;i++)

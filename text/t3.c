@@ -11,7 +11,7 @@ a b c其中最大的数
 30
 */
 #include<stdio.h>
-int main()
+int main3()
 {
     int a = 0;
     int b = 0;

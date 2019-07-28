@@ -18,7 +18,7 @@ China
 Glmre
 */
 #include<stdio.h>
-int main()
+int main4()
 {
     char c1 = 'C';
     char c2 = 'h';

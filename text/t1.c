@@ -15,7 +15,7 @@
 30
 */
 #include<stdio.h>
-int main()
+int main1()
 {
     int a = 0;
     int b = 0;
