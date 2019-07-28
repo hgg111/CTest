@@ -13,7 +13,7 @@ A
 #include<stdio.h>
 int main8()
 {
-    int n;
+    int n = 0;
     scanf("%d",&n);
     if(n >= 90)
     {
