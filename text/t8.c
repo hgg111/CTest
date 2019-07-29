@@ -15,23 +15,27 @@ int main8()
 {
     int n = 0;
     scanf("%d",&n);
-    if(n >= 90)
+    if(n < 0 || n > 100)
+    {
+        printf("wrong\n");
+    }
+    else if(n >= 90)
     {
         printf("A\n");
     }
-    if(n >= 80 && n < 90)
+    else if(n >= 80)
     {
         printf("B\n");
     }
-    if(n >= 70 && n < 80)
+    else if(n >= 70)
     {
         printf("C\n");
     }
-    if(n >= 60 && n < 70)
+    else if(n >= 60)
     {
         printf("D\n");
     }
-    if(n < 60)
+    else
     {
         printf("E\n");
     }

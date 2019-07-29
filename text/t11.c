@@ -24,7 +24,10 @@ int main11()
     {
         k = b;
     }
-    else {k = a;}
+    else
+    {
+        k = a;
+    }
     for(i = 1;i <= k;i++)
     {
         if((a%i == 0) && (b%i == 0))
