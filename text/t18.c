@@ -16,8 +16,8 @@ int main18()
     int n = 0;
     int i = 0;
     float Sn = 0;
-    float a[100];
-    float b[100];
+    float a[100] = {0};
+    float b[100] = {0};
     scanf("%d",&n);
     a[0] = 1;
     a[1] = 2;

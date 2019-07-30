@@ -17,7 +17,7 @@ int main19()
     int n = 0;
     int i = 0;
     float sum = 0;
-    float a[100];
+    float a[100] = {0};
     scanf("%d%d",&m,&n);
     a[1] = m / 2;
     sum = m;
