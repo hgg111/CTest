@@ -24,7 +24,6 @@ int main17()
     int j = 0;
     int k = 0;
     int sum = 0;
-    int a[10000] = {0};   //a[]中存放所有完数
     scanf("%d",&n);
     for(i = 2;i <= n;i++)
     {
@@ -38,21 +37,16 @@ int main17()
         }
         if(sum == i)
         {
-           a[k] = sum;
-           k++;
-        }
-    }                 //找出所有的完数并存放与a数组中
-    for(i = 0;i < k;i++)
-    {
-        printf("%d its factors are ",a[i]);
-        for(j = 1;j < a[i];j++)
-        {
-            if((a[i]%j) == 0)
+            printf("%d its factors are ",i);
+            for(k = 1;k < i;k++)
             {
-                printf("%d ",j);
+                if((i%k) == 0)
+                {
+                    printf("%d ",k);
+                }
             }
-        }              //找出各个完数的因子并输出
-        printf("\n");
+            printf("\n");
+        }
     }
     return 0;
 }
