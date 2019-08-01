@@ -26,7 +26,6 @@ int main23()
     int i = 0;
     int j = 0;
     int t = 0;
-    int min = 0;
     int a[10] = {0};
     for(i = 0;i < 10;i++)
     {
@@ -34,18 +33,15 @@ int main23()
     }
     for(i = 0;i < 10;i++)
     {
-        min = a[i];
         for(j = i;j < 10;j++)
         {
-
-            if(a[j] < min)
+            if(a[j] < a[i])
             {
-                t = min;
-                min = a[j];
+                t = a[i];
+                a[i] = a[j];
                 a[j] = t;
             }
         }
-        a[i] = min;
     }
     for(i = 0;i < 10;i++)
     {
