@@ -16,7 +16,7 @@ void change(char a[])
 {
     int i = 0;
     int j = 0;
-    char t;
+    char t = '\0';
     j = strlen(a);      //求字符串的长度
     for(i = 0;i < j/2;i++)
     {
@@ -27,7 +27,7 @@ void change(char a[])
 }
 int main31()
 {
-    char a[50];
+    char a[50] = {'\0'};
     scanf("%s",a);
     change(a);
     puts(a);

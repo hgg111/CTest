@@ -27,8 +27,8 @@ void sum(char a[],char b[])
 }
 int main32()
 {
-    char a[10];
-    char b[10];
+    char a[10] = {'\0'};
+    char b[10] = {'\0'};
     gets(a);
     gets(b);
     sum(a,b);
