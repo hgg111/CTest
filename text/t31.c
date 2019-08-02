@@ -17,7 +17,7 @@ void change(char a[])
     int i = 0;
     int j = 0;
     char t;
-    j = strlen(a);
+    j = strlen(a);      //求字符串的长度
     for(i = 0;i < j/2;i++)
     {
         t = a[i];
