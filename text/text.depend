@@ -98,7 +98,11 @@
 	<stdio.h>
 	<string.h>
 
-1564744401 source:e:\workspace\ctest\text\t32.c
+1564744776 source:e:\workspace\ctest\text\t32.c
+	<stdio.h>
+	<string.h>
+
+1564746619 source:e:\workspace\ctest\text\t33.c
 	<stdio.h>
 	<string.h>
 
