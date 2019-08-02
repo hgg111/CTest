@@ -46,6 +46,21 @@
 		<Unit filename="t2.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="t23.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="t25.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="t26.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="t27.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="t28.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="t3.c">
 			<Option compilerVar="CC" />
 		</Unit>
