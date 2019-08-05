@@ -15,14 +15,17 @@
 30
 */
 #include<stdio.h>
+
 int main1()
 {
     int a = 0;
     int b = 0;
+
     while(~scanf("%d%d",&a,&b))
     {
         printf("%d\n",a+b);
     }
+
     return 0;
 }
 

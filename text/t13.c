@@ -14,12 +14,14 @@ Sn的值
 24690
 */
 #include<stdio.h>
+
 int main13()
 {
     int n = 0;
     int i = 0;
     int Sn = 2;
-    int a[10] = {0};
+    int a[10] = {0};  //存储每一项的值
+
     scanf("%d",&n);
     a[0] = 2;
     for(i = 1;i < n;i++)

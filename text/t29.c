@@ -17,7 +17,7 @@ int prime(int n)
     int f = 0;
     for(i = 2;i < n;i++)
     {
-        if(n%i == 0)
+        if(0 == (n%i))
         {
             f = 1;
             break;
@@ -31,7 +31,7 @@ int main29()
     int f = 0;
     scanf("%d",&n);
     f = prime(n);
-    if(f == 1)
+    if(1 == f)
     {
         printf("not prime\n");
     }

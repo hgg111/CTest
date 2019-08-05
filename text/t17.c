@@ -17,6 +17,7 @@ N
 496 its factors are 1 2 4 8 16 31 62 124 248
 */
 #include<stdio.h>
+
 int main17()
 {
     int n = 0;
@@ -24,23 +25,24 @@ int main17()
     int j = 0;
     int k = 0;
     int sum = 0;
+
     scanf("%d",&n);
     for(i = 2;i <= n;i++)
     {
         sum = 0;
         for(j = 1;j < i;j++)
         {
-            if((i%j) == 0)
+            if(0 == (i%j))
             {
                 sum = sum + j;
             }
         }
-        if(sum == i)
+        if(i == sum)
         {
             printf("%d its factors are ",i);
             for(k = 1;k < i;k++)
             {
-                if((i%k) == 0)
+                if(0 == (i%k))
                 {
                     printf("%d ",k);
                 }

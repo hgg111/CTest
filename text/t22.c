@@ -35,17 +35,19 @@ N
 97
 */
 #include<stdio.h>
+
 int main22()
 {
     int n = 0;
     int i = 0;
     int j = 0;
+
     scanf("%d",&n);
     for(i = 2;i <= n;i++)
     {
         for(j = 2;j < i;j++)
         {
-            if(i%j == 0)
+            if(0 == (i%j))
             {
                 break;
             }

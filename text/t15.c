@@ -21,6 +21,7 @@ int main15()
     int sumb = 0;
     float sumc = 0;
     float allsum = 0;
+
     scanf("%d%d%d",&a,&b,&c);
     for(i = 1;i <= a;i++)
     {

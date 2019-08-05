@@ -21,38 +21,41 @@
 101
 */
 #include<stdio.h>
+
 int main25()
 {
-    int a[9] = {0};
-    int b[10] = {0};
+    int original[9] = {0};
+    int sort[10] = {0};
     int n = 0;
     int i = 0;
     int j = 0;
+
     for(i = 0;i < 9;i++)
     {
         scanf("%d",&a[i]);
     }
+
     scanf("%d",&n);
-    if(a[1] >= a[0])
+    if(original[1] >= original[0])
     {
         for(i = 0;i < 9;i++)
         {
-            b[i] = a[i];
-            if(a[i] > n)
+            sort[i] = original[i];
+            if(original[i] > n)
             {
-                b[i] = n;
+                sort[i] = n;
                 break;
             }
 
         }
         for(j = i;j < 9;j++)
         {
-            b[j+1] = a[j];
+            sort[j+1] = original[j];
         }
     }
     for(i = 0;i < 10;i++)
     {
-        printf("%d\n",b[i]);
+        printf("%d\n",sort[i]);
     }
     return 0;
 }

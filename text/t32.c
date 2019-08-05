@@ -13,6 +13,7 @@ abc
 */
 #include<stdio.h>
 #include<string.h>
+
 void sum(char a[],char b[])
 {
     int i = 0;
@@ -25,6 +26,7 @@ void sum(char a[],char b[])
         a[i+la] = b[i];
     }
 }
+
 int main32()
 {
     char a[10] = {'\0'};

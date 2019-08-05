@@ -12,24 +12,24 @@ fedcba654321
 */
 #include<stdio.h>
 #include<string.h>
-void change(char a[])
+
+void change(char str[])
 {
     int i = 0;
     int j = 0;
-    char t = '\0';
-    j = strlen(a);      //求字符串的长度
-    for(i = 0;i < j/2;i++)
+    char t = 0;
+
+    j = strlen(str);    //求字符串的长度
+    for(i = j - 1;i >= 0;i--)
     {
-        t = a[i];
-        a[i] = a[j-1-i];
-        a[j-1-i] = t;
+        printf("%c",str[i]);
     }
 }
+
 int main31()
 {
-    char a[50] = {'\0'};
-    scanf("%s",a);
-    change(a);
-    puts(a);
+    char str[100] = {0};
+    scanf("%s",str);
+    change(str);
     return 0;
 }

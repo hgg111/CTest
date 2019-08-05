@@ -11,31 +11,33 @@
 1 35
 */
 #include<stdio.h>
+
 int main11()
 {
-    int a = 0;
-    int b = 0;
-    int k = 0;
+    int m = 0;
+    int n = 0;
+    int k = 0;  //k为m,n中较小值
     int i = 0;
     int max = 0;
     int min = 0;
-    scanf("%d%d",&a,&b);
-    if(a > b)
+
+    scanf("%d%d",&m,&n);
+    if(m > n)
     {
-        k = b;
+        k = n;
     }
     else
     {
-        k = a;
+        k = m;
     }
     for(i = 1;i <= k;i++)
     {
-        if((a%i == 0) && (b%i == 0))
+        if((0 == (m%i)) && (0 == (n%i)))
         {
             max = i;
         }
     }
-    min = max * (a/max) * (b/max);
+    min = max * (m/max) * (n/max);
     printf("%d %d\n",max,min);
     return 0;
 }

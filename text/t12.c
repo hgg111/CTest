@@ -14,6 +14,7 @@ aklsjflj123 sadf918u324 asdf91u32oasdf/.';123
 23 16 2 4
 */
 #include<stdio.h>
+
 int main12()
 {
     char s[100];
@@ -22,8 +23,9 @@ int main12()
     int n2 = 0;
     int n3 = 0;
     int n4 = 0;
+
     gets(s);          //输入带有空格的字符串时要用gets()
-    for(i = 0;s[i] != '\0';i++)
+    for(i = 0;s[i] != 0;i++)
     {
         if((s[i] >= 'a' && s[i] <= 'z') || (s[i] >= 'A' && s[i] <= 'Z'))
         {

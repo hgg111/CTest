@@ -17,11 +17,13 @@ X的平方根
 */
 #include<stdio.h>
 #include<math.h>
+
 int main21()
 {
     int a = 0;
     int i = 0;
     float x[100] = {0};
+
     scanf("%d",&a);
     x[0] = a / 2;
     for(i = 0;i < 100;i++)

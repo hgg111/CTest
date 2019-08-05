@@ -21,7 +21,8 @@ n=0表示输入数据的结束，不做处理。
 6
 */
 #include<stdio.h>
-int number(int n,int f[])
+
+int number(int n,int f[])//number函数计算第n年牛的数量f[n]
 {
     int i = 0;
     f[1] = 1;
@@ -39,19 +40,21 @@ int main5()
     int f[55] = {0};
     int i = 0;
     int k = 0;
+
     for(i = 0;i < 55;i++)
     {
         scanf("%d",&n[i]);
-        if (n[i] == 0)
+        if (0 == n[i])
         {
             break;
         }                 //判断输入数据是否结束
         k++;              //k为数据的个数
     }
+
     for(i = 0;i < k;i++)
     {
         printf("%d\n",number(n[i],f)); //调用函数输出结果
     }
+
     return 0;
 }
-

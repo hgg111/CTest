@@ -12,17 +12,20 @@ N
 1534
 */
 #include<stdio.h>
+
 int main20()
 {
     int n = 0;
     int i = 0;
-    int a[100] = {0};
+    int count[100] = {0};
+
     scanf("%d",&n);
-    a[n] = 1;
-    for(i = n-1;i > 0;i--)
+    count[n] = 1;
+    for(i = (n - 1);i > 0;i--)
     {
-        a[i] = 2 * a[i+1] + 2;
+        count[i] = (2 * count[i+1]) + 2;
     }
+
     printf("%d\n",a[1]);
     return 0;
 }

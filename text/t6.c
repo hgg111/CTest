@@ -14,10 +14,12 @@
 c=-40.00
 */
 #include<stdio.h>
+
 int main6()
 {
     float f = 0;
     float c = 0;
+
     scanf("%f",&f);
     c = 5 * (f-32) / 9;
     printf("c=%4.2f",c);

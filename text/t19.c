@@ -11,21 +11,25 @@ M N
 31.25 2875.00
 */
 #include<stdio.h>
+
 int main19()
 {
     int m = 0;
     int n = 0;
     int i = 0;
     float sum = 0;
-    float a[100] = {0};
+    float bounce[100] = {0};//表示每次反弹高度
+
     scanf("%d%d",&m,&n);
-    a[1] = m / 2;
+
+    bounce[1] = m / 2;
     sum = m;
     for(i = 2;i <= n;i++)
     {
-        a[i] = a[i-1] / 2;
-        sum = sum + 2*a[i-1];
+        bounce[i] = bounce[i-1] / 2;
+        sum = sum + (2*bounce[i-1]);
     }
-    printf("%4.2f %4.2f",a[n],sum);
+
+    printf("%4.2f %4.2f",bounce[n],sum);
     return 0;
 }

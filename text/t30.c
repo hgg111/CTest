@@ -15,36 +15,33 @@
 3 6 9
 */
 #include<stdio.h>
+
 int main30()
 {
     int i = 0;
     int j = 0;
-    int t = 0;
-    int a[3][3] = {0};
+    int number[3][3] = {0};
+
     for(i = 0;i < 3;i++)
     {
         for(j = 0;j < 3;j++)
         {
-            scanf("%d",&a[i][j]);
+            scanf("%d",&number[i][j]);
         }
     }
+
     for(i = 0;i < 3;i++)
     {
-        for(j = i;j < 3;j++)
+        for(j = 0;j < 3;j++)
         {
             if(i != j)
             {
-                t = a[i][j];
-                a[i][j] = a[j][i];
-                a[j][i] = t;
+                printf("%d ",number[j][i]);  //不是对角线上的点要换成与之对称的数
             }
-        }
-    }
-    for(i = 0;i < 3;i++)
-    {
-        for(j = 0;j < 3;j++)
-        {
-            printf("%d ",a[i][j]);
+            else
+            {
+                printf("%d ",number[i][j]);  //对角线上的点直接输出
+            }
         }
         printf("\n");
     }

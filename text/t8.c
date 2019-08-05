@@ -11,6 +11,7 @@
 A
 */
 #include<stdio.h>
+
 int main8()
 {
     int n = 0;

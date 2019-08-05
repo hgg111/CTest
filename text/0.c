@@ -1,31 +1,29 @@
 #include<stdio.h>
-typedef struct node
+#include<stdlib.h >
+typedef struct student
 {
     int data;
-    struct node *next;
-}node;                 //定义节点
-node *nodecreate(int data)
+    struct student* next;
+}List,*Listp;
+Listp creatList()
 {
-    node *new = NULL;
-    new = malloc(sizeof(node));
-    if(new == NULL)
-    {
-        printf("wrong\n");
-        return NULL;
-    }
-    new->data = data;
-    new->next = NULL;
-    return new;
+    Listp List = (Listp)malloc(sizeof(List));
+    List->next = NULL;
+    return List;
 }
-void list_append(int data)
+Listp creatNode(int data)
 {
-    node *new = NULL;
-    node *temp = NULL;
-    new = nodecreate(data);
-    temp->next = new;
-    return;
+    Listp Node = (Listp)malloc(sizeof(List));
+    Node->data = data;
+    Node->next = NULL;
+    return Node;
 }
 int main0()
 {
-
+    int data = 0;
+    scanf("%d",&data);
+    Listp head;
+    head = Listp creatList();
+    Listp creatNode(data);
+    return 0;
 }

@@ -11,12 +11,14 @@ a b c其中最大的数
 30
 */
 #include<stdio.h>
+
 int main3()
 {
     int a = 0;
     int b = 0;
     int c = 0;
     int max = 0;
+
     scanf("%d%d%d",&a,&b,&c);
     if(a >= b)
     {
@@ -31,5 +33,6 @@ int main3()
         max = c;
     }
     printf("%d",max);
+
     return 0;
 }

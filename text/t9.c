@@ -13,34 +13,39 @@
 54321
 */
 #include<stdio.h>
+
 int main9()
 {
     int n = 0;
     int i = 0;
     int k = 0;
     int j = 0;
-    int a[5] = {0};
+    int number[5] = {0};
+
     scanf("%d",&n);
+
     k = n;
     for(i = 0;i < 5;i++)
     {
-        a[i] = k % 10;
+        number[i] = k % 10;
         k = k / 10;
         j++;
-        if(k == 0)
+        if(0 == k)
         {
             break;
         }
     }
     printf("%d\n",j);
+
     for(i = j-1;i >= 0;i--)
     {
-        printf("%d ",a[i]);
+        printf("%d ",number[i]);
     }
     printf("\n");
+
     for(i = 0;i < j;i++)
     {
-        printf("%d",a[i]);
+        printf("%d",number[i]);
     }
     printf("\n");
     return 0;

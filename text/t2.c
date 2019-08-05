@@ -25,9 +25,11 @@ Hello World!
 **************************
 */
 #include<stdio.h>
+
 int main2()
 {
     int i = 0;
+
     for(i = 0;i < 26;i++)
     {
         printf("*");
@@ -39,5 +41,6 @@ int main2()
         printf("*");
     }
     printf("\n");
+
     return 0;
 }
