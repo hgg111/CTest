@@ -16,7 +16,7 @@ a b c三角形的三条边,可以是小数。
 #define get_s(a,b,c) {s = (a + b + c) / 2;} //带实参的宏定义求s
 #define get_area(s,a,b,c) {area = sqrt(s * (s - a) * (s - b) * (s - c));} //带实参的宏定义求面积
 
-int main()
+int main38()
 {
     int a = 0;
     int b = 0;
