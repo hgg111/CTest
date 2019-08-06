@@ -109,3 +109,7 @@
 1565070967 source:e:\workspace\ctest\text\t34.c
 	<stdio.h>
 
+1565073253 source:e:\workspace\ctest\text\t35.c
+	<stdio.h>
+	<string.h>
+
