@@ -13,7 +13,7 @@ b c
 #include<stdio.h>
 #include<string.h>
 
-int main()
+int main41()
 {
     char str[100] = {0};
     int strlong = 0;
