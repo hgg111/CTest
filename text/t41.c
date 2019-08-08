@@ -16,12 +16,12 @@ b c
 int main41()
 {
     char str[100] = {0};
-    int strlong = 0;
+    int strlength = 0;
     int i = 0;
 
     gets(str);
-    strlong = strlen(str);
-    for(i = 0;i < strlong;i++)
+    strlength = strlen(str);
+    for(i = 0;i < strlength;i++)
     {
         if((str[i] >= 'a') && (str[i] < 'z'))
         {
