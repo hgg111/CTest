@@ -31,6 +31,9 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="42.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="t1.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -67,9 +70,6 @@
 		<Unit filename="t30.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="t31.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="t32.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -92,6 +92,12 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="t4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="t44.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="t45.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="t5.c">
