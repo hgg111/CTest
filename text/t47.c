@@ -12,7 +12,7 @@
 */
 #include<stdio.h>
 
-typedef struct time
+typedef struct st_date
 {
     int year;
     int month;
@@ -21,7 +21,7 @@ typedef struct time
 
 int main47()
 {
-    struct time time1;
+    struct st_data time1;
     int sumday = 0;
     int i = 0;
     int monthday[12] = {0};
