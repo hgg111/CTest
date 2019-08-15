@@ -15,7 +15,7 @@
 */
 #include<stdio.h>
 
-int main()
+int main51()
 {
     int number[10] = {0};
     int i = 0;
