@@ -22,24 +22,25 @@ b clan 80 70 60
      int score1;
      int score2;
      int score3;
- };
+ };                     // 定义结构体
 
- int main()
+ int main49()
  {
      int student = 0;
      int i = 0;
      int max = 0;
-     int maxi = 0;
+     int maxi = 0;  // 最高分数的学生的坐标
      int sum1 = 0;
      int sum2 = 0;
      int sum3 = 0;
-     struct st_student data[100] = {0};
+     struct st_student data[100] = {0};  // 定义结构体数组
 
      scanf("%d",&student);
      for(i = 0;i < student;i++)
      {
          scanf("%s%s%d%d%d",data[i].number,data[i].name,&data[i].score1,&data[i].score2,&data[i].score3);
-     }
+     }          // 读取输入的数据
+
      for(i = 0;i < student;i++)
      {
          sum1 = sum1 + data[i].score1;

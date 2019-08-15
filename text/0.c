@@ -3,7 +3,7 @@
 typedef struct student
 {
     int data;
-    struct student* next;
+    struct student *next;
 }List,*Listp;
 Listp creatList()
 {
@@ -18,7 +18,7 @@ Listp creatNode(int data)
     Node->next = NULL;
     return Node;
 }
-int main0()
+int main())
 {
     int data = 0;
     scanf("%d",&data);
