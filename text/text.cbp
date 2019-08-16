@@ -115,6 +115,15 @@
 		<Unit filename="t50.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="t53.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="t54.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="t55.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="t6.c">
 			<Option compilerVar="CC" />
 		</Unit>

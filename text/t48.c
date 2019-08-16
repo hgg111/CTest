@@ -25,11 +25,25 @@ typedef struct st_student
     int score3;
 };              // 构建结构体
 
-void input(struct st_student s[],int i)   // input函数用来读取输入的数据，传入的参数为结构体数组和表示个数的i
+/**************************************************
+函数名称：input
+描述：读取输入的数据
+参数：结构体数组st_student s[],下标i
+返回值：无
+**************************************************/
+
+void input(struct st_student s[],int i)
 {
     scanf("%s%s",s[i].number,s[i].name);
     scanf("%d%d%d",&(s[i].score1),&(s[i].score2),&(s[i].score3));
 }
+
+/**************************************************
+函数名称：output
+描述：输出结果
+参数：结构体数组st_student s[],下标i
+返回值：无
+**************************************************/
 
 void output(struct st_student s[],int i)  // output函数用来输出数据，传入的参数为结构体数组和表示个数的i
 {
