@@ -112,9 +112,6 @@
 		<Unit filename="t5.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="t50.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="t53.c">
 			<Option compilerVar="CC" />
 		</Unit>
