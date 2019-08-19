@@ -104,11 +104,17 @@ int main61()
 {
     Studentp list;
     Studentp head;
+    Studentp p;
 
     head = creathead();
     list = creatnode(head);
     search(list);
 
-    free(list);
+    while(list->next != NULL)
+    {
+        p = list;
+        free(p);
+        list = list->next;
+    }
     return 0;
 }

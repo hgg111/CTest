@@ -112,12 +112,13 @@ void sort_list(Datap list1,Datap list2,int length)    // sort_list函数将链表排序
     }
 }
 
-int main50()
+int main()
 {
     int length1 = 0;
     int length2 = 0;
     Datap list1;
     Datap list2;
+    Datap p;
 
     scanf("%d%d",&length1,&length2);
     list1 = creatlist(length1);      // 创建链表1
@@ -125,7 +126,17 @@ int main50()
 
     sort_list(list1,list2,(length1 + length2));
 
-    free(list1);
-    free(list2);
+    while(list1->next != NULL)
+    {
+        p = list1;
+        free(p);
+        list1 = list1->next;
+    }
+    while(list2->next != NULL)
+    {
+        p = list2;
+        free(p);
+        list2 = list2->next;
+    }
     return 0;
 }
