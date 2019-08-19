@@ -27,7 +27,7 @@ int main60()
     int max = 0;
     int maxi = 0;
     int maxj = 0;
-    int data[6][6] = {0};
+    int data[7][7] = {0};
 
     scanf("%d",&number);
     for(i = 1;i <= number;i++)

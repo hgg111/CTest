@@ -133,6 +133,12 @@
 		<Unit filename="t6.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="t60.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="t61.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="t7.c">
 			<Option compilerVar="CC" />
 		</Unit>
