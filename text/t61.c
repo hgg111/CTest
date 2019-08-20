@@ -112,9 +112,9 @@ int main61()
 
     while(list->next != NULL)
     {
-        p = list;
+        p = list->next;
         free(p);
-        list = list->next;
+        list = p;
     }
     return 0;
 }
