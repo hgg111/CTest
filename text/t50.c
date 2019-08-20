@@ -118,7 +118,7 @@ int main()
     int length2 = 0;
     Datap list1;
     Datap list2;
-    Datap p;
+    Datap q;
 
     scanf("%d%d",&length1,&length2);
     list1 = creatlist(length1);      // ´´½¨Á´±í1
@@ -128,15 +128,11 @@ int main()
 
     while(list1->next != NULL)
     {
-        p = list1;
-        free(p);
-        list1 = list1->next;
+        q = list1->next;
+        free(list1);
+        list1 = q;
     }
-    while(list2->next != NULL)
-    {
-        p = list2;
-        free(p);
-        list2 = list2->next;
-    }
+    free(list1);
+
     return 0;
 }
