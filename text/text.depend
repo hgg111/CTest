@@ -156,7 +156,7 @@
 1565526451 source:e:\workspace\ctest\text\t49.c
 	<stdio.h>
 
-1566294845 source:e:\workspace\ctest\text\t50.c
+1566358512 source:e:\workspace\ctest\text\t50.c
 	<stdio.h>
 	<stdlib.h>
 
@@ -190,7 +190,10 @@
 1566201468 source:e:\workspace\ctest\text\t60.c
 	<stdio.h>
 
-1566200310 source:e:\workspace\ctest\text\t61.c
+1566306151 source:e:\workspace\ctest\text\t61.c
 	<stdio.h>
 	<stdlib.h>
+
+1566361324 source:e:\workspace\ctest\text\t62.c
+	<stdio.h>
 

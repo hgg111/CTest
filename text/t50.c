@@ -112,7 +112,7 @@ void sort_list(Datap list1,Datap list2,int length)    // sort_listº¯Êı½«Á´±íÅÅĞò
     }
 }
 
-int main()
+int main50()
 {
     int length1 = 0;
     int length2 = 0;
