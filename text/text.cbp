@@ -79,9 +79,6 @@
 		<Unit filename="t34.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="t35.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="t36.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -127,9 +124,6 @@
 		<Unit filename="t57.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="t58.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="t59.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -140,6 +134,12 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="t61.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="t62.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="t63.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="t7.c">
